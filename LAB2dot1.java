@@ -51,6 +51,12 @@ public class LAB2dot1 {
         System.out.println("isEmpty(\"text\"): " + s1.isEmpty());
         System.out.println("");
 
+        String S1 = text.substring(50, 100);
+        String S2 = text.substring(100, 150);
+        String S3 = String.join(" ", S1, S2);
+        System.out.println("join(): " + S3);
+        System.out.println("");
+
         System.out.println("length(): " + text.length());
         System.out.println("");
 
